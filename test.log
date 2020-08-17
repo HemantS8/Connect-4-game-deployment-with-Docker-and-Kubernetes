@@ -1,0 +1,114 @@
+2020-08-16 20:48:26,443 : INFO : __main__ : Line No 18 : Prediction Started
+2020-08-16 20:49:53,854 : INFO : __main__ : Line No 18 : Prediction Started
+2020-08-16 20:50:12,105 : INFO : __main__ : Line No 18 : Prediction Started
+2020-08-16 20:50:55,399 : INFO : __main__ : Line No 18 : Prediction Started
+2020-08-16 20:52:16,797 : INFO : __main__ : Line No 18 : Prediction Started
+2020-08-16 20:52:18,665 : INFO : __main__ : Line No 85 : Prediction Ended
+2020-08-16 20:52:18,665 : INFO : __main__ : Line No 121 : Prediction Ended
+2020-08-16 20:55:52,386 : INFO : __main__ : Line No 18 : Prediction Started
+2020-08-16 20:55:54,392 : INFO : __main__ : Line No 96 : Prediction Ended
+2020-08-16 20:55:54,392 : INFO : __main__ : Line No 132 : Prediction Ended
+2020-08-16 20:56:19,079 : INFO : __main__ : Line No 18 : Prediction Started
+2020-08-16 20:56:21,038 : INFO : __main__ : Line No 96 : Prediction Ended
+2020-08-16 20:56:21,038 : INFO : __main__ : Line No 144 : Prediction Ended
+2020-08-16 20:57:05,101 : INFO : __main__ : Line No 113 : Prediction Started inside input function
+2020-08-16 20:57:05,101 : INFO : __main__ : Line No 113 : Prediction Started inside input function
+2020-08-17 09:04:31,014 : INFO : __main__ : Line No 18 : Prediction Started
+2020-08-17 09:04:35,139 : INFO : __main__ : Line No 159 : Prediction Ended
+2020-08-17 09:04:35,951 : INFO : __main__ : Line No 18 : Prediction Started
+2020-08-17 09:04:37,810 : INFO : __main__ : Line No 159 : Prediction Ended
+2020-08-17 09:05:40,795 : INFO : __main__ : Line No 41 : Prediction Started inside input function
+2020-08-17 09:05:40,795 : INFO : __main__ : Line No 41 : Prediction Started inside input function
+2020-08-17 09:11:27,461 : INFO : __main__ : Line No 18 : Prediction Started
+2020-08-17 09:11:29,372 : INFO : __main__ : Line No 159 : Prediction Ended
+2020-08-17 09:11:51,469 : INFO : __main__ : Line No 41 : Prediction Started inside input function
+2020-08-17 09:11:51,469 : INFO : __main__ : Line No 41 : Prediction Started inside input function
+2020-08-17 09:12:31,481 : INFO : __main__ : Line No 41 : Prediction Started inside input function
+2020-08-17 09:12:31,481 : INFO : __main__ : Line No 41 : Prediction Started inside input function
+2020-08-17 09:12:31,481 : INFO : __main__ : Line No 41 : Prediction Started inside input function
+2020-08-17 09:15:56,029 : INFO : __main__ : Line No 18 : Prediction Started
+2020-08-17 09:15:58,045 : INFO : __main__ : Line No 159 : Prediction Ended
+2020-08-17 09:17:23,320 : INFO : __main__ : Line No 18 : Prediction Started
+2020-08-17 09:17:25,230 : INFO : __main__ : Line No 168 : Prediction Ended
+2020-08-17 09:26:20,604 : INFO : __main__ : Line No 18 : Prediction Started
+2020-08-17 09:26:22,691 : INFO : __main__ : Line No 183 : Prediction Ended
+2020-08-17 09:26:24,383 : INFO : __main__ : Line No 46 : Prediction Started inside input function
+2020-08-17 09:26:24,383 : INFO : __main__ : Line No 46 : Prediction Started inside input function
+2020-08-17 09:26:38,599 : INFO : __main__ : Line No 146 : Prediction Started inside input function
+2020-08-17 09:26:38,599 : INFO : __main__ : Line No 146 : Prediction Started inside input function
+2020-08-17 09:26:38,599 : INFO : __main__ : Line No 146 : Prediction Started inside input function
+2020-08-17 09:26:38,599 : INFO : __main__ : Line No 146 : Prediction Started inside input function
+2020-08-17 09:31:38,696 : INFO : __main__ : Line No 18 : Prediction Started
+2020-08-17 09:31:40,720 : INFO : __main__ : Line No 182 : Prediction Ended
+2020-08-17 09:36:51,679 : INFO : __main__ : Line No 18 : Prediction Started
+2020-08-17 09:36:53,558 : INFO : __main__ : Line No 185 : Prediction Ended
+2020-08-17 09:37:11,228 : INFO : __main__ : Line No 18 : Prediction Started
+2020-08-17 09:37:13,154 : INFO : __main__ : Line No 185 : Prediction Ended
+2020-08-17 09:39:05,618 : INFO : __main__ : Line No 18 : Prediction Started Successfully
+2020-08-17 09:39:07,450 : INFO : __main__ : Line No 121 : Model worked successfully
+2020-08-17 09:39:07,450 : INFO : __main__ : Line No 174 : Prediction Ended
+2020-08-17 09:40:32,665 : INFO : __main__ : Line No 18 : Prediction Started Successfully
+2020-08-17 09:40:34,639 : INFO : __main__ : Line No 121 : Model worked successfully
+2020-08-17 09:40:34,639 : INFO : __main__ : Line No 176 : Prediction Ended
+2020-08-17 09:41:42,070 : INFO : __main__ : Line No 18 : Prediction Started Successfully
+2020-08-17 09:41:44,028 : INFO : __main__ : Line No 121 : Model worked successfully
+2020-08-17 09:41:44,028 : INFO : __main__ : Line No 175 : Model worked successfully
+2020-08-17 09:41:44,028 : INFO : __main__ : Line No 176 : Prediction Ended Successfully
+2020-08-17 09:42:12,383 : INFO : __main__ : Line No 18 : Prediction Started Successfully
+2020-08-17 09:42:14,435 : INFO : __main__ : Line No 121 : Model worked successfully
+2020-08-17 09:42:14,435 : INFO : __main__ : Line No 174 : Model worked successfully
+2020-08-17 09:42:14,435 : INFO : __main__ : Line No 175 : Prediction Ended Successfully
+2020-08-17 09:43:28,038 : INFO : __main__ : Line No 18 : Prediction Started Successfully
+2020-08-17 09:43:29,983 : INFO : __main__ : Line No 120 : Model worked successfully
+2020-08-17 09:43:29,983 : INFO : __main__ : Line No 173 : Model worked successfully
+2020-08-17 09:43:29,983 : INFO : __main__ : Line No 174 : Prediction Ended Successfully
+2020-08-17 09:43:56,471 : INFO : __main__ : Line No 18 : Prediction Started Successfully
+2020-08-17 09:43:58,392 : INFO : __main__ : Line No 120 : Model worked successfully
+2020-08-17 09:43:58,392 : INFO : __main__ : Line No 173 : Model worked successfully
+2020-08-17 09:43:58,392 : INFO : __main__ : Line No 174 : Prediction Ended Successfully
+2020-08-17 09:43:59,298 : INFO : __main__ : Line No 18 : Prediction Started Successfully
+2020-08-17 09:44:01,307 : INFO : __main__ : Line No 120 : Model worked successfully
+2020-08-17 09:44:01,308 : INFO : __main__ : Line No 173 : Model worked successfully
+2020-08-17 09:44:01,308 : INFO : __main__ : Line No 174 : Prediction Ended Successfully
+2020-08-17 09:45:42,241 : INFO : __main__ : Line No 18 : Prediction Started Successfully
+2020-08-17 09:45:44,214 : INFO : __main__ : Line No 120 : Model worked successfully
+2020-08-17 09:45:44,230 : INFO : __main__ : Line No 172 : Model worked successfully
+2020-08-17 09:45:44,230 : INFO : __main__ : Line No 173 : Prediction Ended Successfully
+2020-08-17 09:45:59,399 : INFO : __main__ : Line No 18 : Prediction Started Successfully
+2020-08-17 09:46:01,294 : INFO : __main__ : Line No 120 : Model worked successfully
+2020-08-17 09:46:01,294 : INFO : __main__ : Line No 172 : Model worked successfully
+2020-08-17 09:46:01,294 : INFO : __main__ : Line No 173 : Prediction Ended Successfully
+2020-08-17 09:46:33,351 : INFO : __main__ : Line No 18 : Prediction Started Successfully
+2020-08-17 09:46:35,316 : INFO : __main__ : Line No 120 : Model worked successfully
+2020-08-17 09:46:35,316 : INFO : __main__ : Line No 172 : Model worked successfully
+2020-08-17 09:46:35,316 : INFO : __main__ : Line No 173 : Prediction Ended Successfully
+2020-08-17 09:46:43,481 : INFO : __main__ : Line No 18 : Prediction Started Successfully
+2020-08-17 09:46:45,407 : INFO : __main__ : Line No 120 : Model worked successfully
+2020-08-17 09:46:45,407 : INFO : __main__ : Line No 172 : Model worked successfully
+2020-08-17 09:46:45,407 : INFO : __main__ : Line No 173 : Prediction Ended Successfully
+2020-08-17 09:46:54,672 : INFO : __main__ : Line No 18 : Prediction Started Successfully
+2020-08-17 09:46:56,586 : INFO : __main__ : Line No 120 : Model worked successfully
+2020-08-17 09:46:56,586 : INFO : __main__ : Line No 172 : Model worked successfully
+2020-08-17 09:46:56,586 : INFO : __main__ : Line No 173 : Prediction Ended Successfully
+2020-08-17 09:47:09,260 : INFO : __main__ : Line No 134 : predict_file_input function started successfully
+2020-08-17 09:47:09,260 : INFO : __main__ : Line No 134 : predict_file_input function started successfully
+2020-08-17 09:57:43,910 : INFO : __main__ : Line No 18 : Prediction Started Successfully
+2020-08-17 09:57:45,841 : INFO : __main__ : Line No 120 : Model worked successfully
+2020-08-17 09:57:45,849 : INFO : __main__ : Line No 174 : Model worked successfully
+2020-08-17 09:57:45,849 : INFO : __main__ : Line No 175 : Prediction Ended Successfully
+2020-08-17 09:57:46,766 : INFO : __main__ : Line No 18 : Prediction Started Successfully
+2020-08-17 09:57:48,660 : INFO : __main__ : Line No 120 : Model worked successfully
+2020-08-17 09:57:48,660 : INFO : __main__ : Line No 174 : Model worked successfully
+2020-08-17 09:57:48,660 : INFO : __main__ : Line No 175 : Prediction Ended Successfully
+2020-08-17 09:58:02,537 : INFO : __main__ : Line No 134 : predict_file_input function started successfully
+2020-08-17 09:58:02,537 : INFO : __main__ : Line No 134 : predict_file_input function started successfully
+2020-08-17 10:01:02,248 : INFO : __main__ : Line No 18 : Prediction Started Successfully
+2020-08-17 10:01:04,096 : INFO : __main__ : Line No 120 : Model worked successfully
+2020-08-17 10:01:04,096 : INFO : __main__ : Line No 183 : Model worked successfully
+2020-08-17 10:01:04,096 : INFO : __main__ : Line No 184 : Prediction Ended Successfully
+2020-08-17 10:01:17,720 : INFO : __main__ : Line No 134 : predict_file_input function started successfully
+2020-08-17 10:01:17,720 : INFO : __main__ : Line No 134 : predict_file_input function started successfully
+2020-08-17 10:02:16,541 : INFO : __main__ : Line No 18 : Prediction Started Successfully
+2020-08-17 10:02:18,468 : INFO : __main__ : Line No 120 : Model worked successfully
+2020-08-17 10:02:18,468 : INFO : __main__ : Line No 171 : Model worked successfully
+2020-08-17 10:02:18,468 : INFO : __main__ : Line No 172 : Prediction Ended Successfully

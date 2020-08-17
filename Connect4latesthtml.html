@@ -1,0 +1,526 @@
+<html>
+<head>
+<title>Connect-4 Game</title>
+<link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='styles/style.css') }}">
+</head>
+<body>
+
+<div id="header">
+<h1><center>Connect4-Game Prediction</center></h1>
+<p><center>Follow this instructions:</center></p>
+<p><center>1)Choose Board positions from the left side given options(Refer the board image given below)</center></p>
+<p><center>2)Choose a player for a particular position from the right side options</center></p>
+<p><center>Remember : Prediction Result will be displayed only for the First player</center></p>
+<br><br>
+</div>
+
+<div id="left">
+<h3 color="blue">Choose the position on Board</h3>
+<form action="predict" method= "post">
+
+   <label for="boardp1">Choose a first position:</label>
+   <select name="board1" id="board1">
+    <option value="atr1">1</option>
+    <option value="atr2">2</option>
+    <option value="atr3">3</option>
+    <option value="atr4">4</option>
+    <option value="atr5">5</option>
+    <option value="atr6">6</option>
+    <option value="atr7">7</option>
+    <option value="atr8">8</option>
+    <option value="atr9">9</option>
+    <option value="atr10">10</option>
+    <option value="atr11">11</option>
+    <option value="atr12">12</option>
+    <option value="atr13">13</option>
+    <option value="atr14">14</option>
+    <option value="atr15">15</option>
+    <option value="atr16">16</option>
+    <option value="atr17">17</option>
+    <option value="atr18">18</option>
+    <option value="atr19">19</option>
+    <option value="atr20">20</option>
+    <option value="atr21">21</option>
+    <option value="atr22">22</option>
+    <option value="atr23">23</option>
+    <option value="atr24">24</option>
+    <option value="atr25">25</option>
+    <option value="atr26">26</option>
+    <option value="atr27">27</option>
+    <option value="atr28">28</option>
+    <option value="atr29">29</option>
+    <option value="atr30">30</option>
+    <option value="atr31">31</option>
+    <option value="atr32">32</option>
+    <option value="atr33">33</option>
+    <option value="atr34">34</option>
+    <option value="atr35">35</option>
+    <option value="atr36">36</option>
+    <option value="atr37">37</option>
+    <option value="atr38">38</option>
+    <option value="atr39">39</option>
+    <option value="atr40">40</option>
+    <option value="atr41">41</option>
+    <option value="atr42">42</option>
+
+  </select>
+  <br><br>
+  <label for="boardp2">Choose a second position:</label>
+  <select name="board2" id="board2">
+    <option value="atr1">1</option>
+    <option value="atr2">2</option>
+    <option value="atr3">3</option>
+    <option value="atr4">4</option>
+    <option value="atr5">5</option>
+    <option value="atr6">6</option>
+    <option value="atr7">7</option>
+    <option value="atr8">8</option>
+    <option value="atr9">9</option>
+    <option value="atr10">10</option>
+    <option value="atr11">11</option>
+    <option value="atr12">12</option>
+    <option value="atr13">13</option>
+    <option value="atr14">14</option>
+    <option value="atr15">15</option>
+    <option value="atr16">16</option>
+    <option value="atr17">17</option>
+    <option value="atr18">18</option>
+    <option value="atr19">19</option>
+    <option value="atr20">20</option>
+    <option value="atr21">21</option>
+    <option value="atr22">22</option>
+    <option value="atr23">23</option>
+    <option value="atr24">24</option>
+    <option value="atr25">25</option>
+    <option value="atr26">26</option>
+    <option value="atr27">27</option>
+    <option value="atr28">28</option>
+    <option value="atr29">29</option>
+    <option value="atr30">30</option>
+    <option value="atr31">31</option>
+    <option value="atr32">32</option>
+    <option value="atr33">33</option>
+    <option value="atr34">34</option>
+    <option value="atr35">35</option>
+    <option value="atr36">36</option>
+    <option value="atr37">37</option>
+    <option value="atr38">38</option>
+    <option value="atr39">39</option>
+    <option value="atr40">40</option>
+    <option value="atr41">41</option>
+    <option value="atr42">42</option>
+  </select>
+  <br><br>
+  <label for="boardp3">Choose a third position:</label>
+  <select name="board3" id="board3">
+    <option value="atr1">1</option>
+    <option value="atr2">2</option>
+    <option value="atr3">3</option>
+    <option value="atr4">4</option>
+    <option value="atr5">5</option>
+    <option value="atr6">6</option>
+    <option value="atr7">7</option>
+    <option value="atr8">8</option>
+    <option value="atr9">9</option>
+    <option value="atr10">10</option>
+    <option value="atr11">11</option>
+    <option value="atr12">12</option>
+    <option value="atr13">13</option>
+    <option value="atr14">14</option>
+    <option value="atr15">15</option>
+    <option value="atr16">16</option>
+    <option value="atr17">17</option>
+    <option value="atr18">18</option>
+    <option value="atr19">19</option>
+    <option value="atr20">20</option>
+    <option value="atr21">21</option>
+    <option value="atr22">22</option>
+    <option value="atr23">23</option>
+    <option value="atr24">24</option>
+    <option value="atr25">25</option>
+    <option value="atr26">26</option>
+    <option value="atr27">27</option>
+    <option value="atr28">28</option>
+    <option value="atr29">29</option>
+    <option value="atr30">30</option>
+    <option value="atr31">31</option>
+    <option value="atr32">32</option>
+    <option value="atr33">33</option>
+    <option value="atr34">34</option>
+    <option value="atr35">35</option>
+    <option value="atr36">36</option>
+    <option value="atr37">37</option>
+    <option value="atr38">38</option>
+    <option value="atr39">39</option>
+    <option value="atr40">40</option>
+    <option value="atr41">41</option>
+    <option value="atr42">42</option>
+  </select>
+  <br><br>
+  <label for="boardp4">Choose a fourth position:</label>
+  <select name="board4" id="board4">
+    <option value="atr1">1</option>
+    <option value="atr2">2</option>
+    <option value="atr3">3</option>
+    <option value="atr4">4</option>
+    <option value="atr5">5</option>
+    <option value="atr6">6</option>
+    <option value="atr7">7</option>
+    <option value="atr8">8</option>
+    <option value="atr9">9</option>
+    <option value="atr10">10</option>
+    <option value="atr11">11</option>
+    <option value="atr12">12</option>
+    <option value="atr13">13</option>
+    <option value="atr14">14</option>
+    <option value="atr15">15</option>
+    <option value="atr16">16</option>
+    <option value="atr17">17</option>
+    <option value="atr18">18</option>
+    <option value="atr19">19</option>
+    <option value="atr20">20</option>
+    <option value="atr21">21</option>
+    <option value="atr22">22</option>
+    <option value="atr23">23</option>
+    <option value="atr24">24</option>
+    <option value="atr25">25</option>
+    <option value="atr26">26</option>
+    <option value="atr27">27</option>
+    <option value="atr28">28</option>
+    <option value="atr29">29</option>
+    <option value="atr30">30</option>
+    <option value="atr31">31</option>
+    <option value="atr32">32</option>
+    <option value="atr33">33</option>
+    <option value="atr34">34</option>
+    <option value="atr35">35</option>
+    <option value="atr36">36</option>
+    <option value="atr37">37</option>
+    <option value="atr38">38</option>
+    <option value="atr39">39</option>
+    <option value="atr40">40</option>
+    <option value="atr41">41</option>
+    <option value="atr42">42</option>
+  </select>
+  <br><br>
+  <label for="boardp5">Choose a fifth position:</label>
+  <select name="board5" id="board5">
+    <option value="atr1">1</option>
+    <option value="atr2">2</option>
+    <option value="atr3">3</option>
+    <option value="atr4">4</option>
+    <option value="atr5">5</option>
+    <option value="atr6">6</option>
+    <option value="atr7">7</option>
+    <option value="atr8">8</option>
+    <option value="atr9">9</option>
+    <option value="atr10">10</option>
+    <option value="atr11">11</option>
+    <option value="atr12">12</option>
+    <option value="atr13">13</option>
+    <option value="atr14">14</option>
+    <option value="atr15">15</option>
+    <option value="atr16">16</option>
+    <option value="atr17">17</option>
+    <option value="atr18">18</option>
+    <option value="atr19">19</option>
+    <option value="atr20">20</option>
+    <option value="atr21">21</option>
+    <option value="atr22">22</option>
+    <option value="atr23">23</option>
+    <option value="atr24">24</option>
+    <option value="atr25">25</option>
+    <option value="atr26">26</option>
+    <option value="atr27">27</option>
+    <option value="atr28">28</option>
+    <option value="atr29">29</option>
+    <option value="atr30">30</option>
+    <option value="atr31">31</option>
+    <option value="atr32">32</option>
+    <option value="atr33">33</option>
+    <option value="atr34">34</option>
+    <option value="atr35">35</option>
+    <option value="atr36">36</option>
+    <option value="atr37">37</option>
+    <option value="atr38">38</option>
+    <option value="atr39">39</option>
+    <option value="atr40">40</option>
+    <option value="atr41">41</option>
+    <option value="atr42">42</option>
+  </select>
+  <br><br>
+  <label for="boardp6">Choose a sixth position:</label>
+  <select name="board6" id="board6">
+    <option value="atr1">1</option>
+    <option value="atr2">2</option>
+    <option value="atr3">3</option>
+    <option value="atr4">4</option>
+    <option value="atr5">5</option>
+    <option value="atr6">6</option>
+    <option value="atr7">7</option>
+    <option value="atr8">8</option>
+    <option value="atr9">9</option>
+    <option value="atr10">10</option>
+    <option value="atr11">11</option>
+    <option value="atr12">12</option>
+    <option value="atr13">13</option>
+    <option value="atr14">14</option>
+    <option value="atr15">15</option>
+    <option value="atr16">16</option>
+    <option value="atr17">17</option>
+    <option value="atr18">18</option>
+    <option value="atr19">19</option>
+    <option value="atr20">20</option>
+    <option value="atr21">21</option>
+    <option value="atr22">22</option>
+    <option value="atr23">23</option>
+    <option value="atr24">24</option>
+    <option value="atr25">25</option>
+    <option value="atr26">26</option>
+    <option value="atr27">27</option>
+    <option value="atr28">28</option>
+    <option value="atr29">29</option>
+    <option value="atr30">30</option>
+    <option value="atr31">31</option>
+    <option value="atr32">32</option>
+    <option value="atr33">33</option>
+    <option value="atr34">34</option>
+    <option value="atr35">35</option>
+    <option value="atr36">36</option>
+    <option value="atr37">37</option>
+    <option value="atr38">38</option>
+    <option value="atr39">39</option>
+    <option value="atr40">40</option>
+    <option value="atr41">41</option>
+    <option value="atr42">42</option>
+  </select>
+  <br><br>
+  <label for="boardp7">Choose a seventh position:</label>
+  <select name="board7" id="board7">
+    <option value="atr1">1</option>
+    <option value="atr2">2</option>
+    <option value="atr3">3</option>
+    <option value="atr4">4</option>
+    <option value="atr5">5</option>
+    <option value="atr6">6</option>
+    <option value="atr7">7</option>
+    <option value="atr8">8</option>
+    <option value="atr9">9</option>
+    <option value="atr10">10</option>
+    <option value="atr11">11</option>
+    <option value="atr12">12</option>
+    <option value="atr13">13</option>
+    <option value="atr14">14</option>
+    <option value="atr15">15</option>
+    <option value="atr16">16</option>
+    <option value="atr17">17</option>
+    <option value="atr18">18</option>
+    <option value="atr19">19</option>
+    <option value="atr20">20</option>
+    <option value="atr21">21</option>
+    <option value="atr22">22</option>
+    <option value="atr23">23</option>
+    <option value="atr24">24</option>
+    <option value="atr25">25</option>
+    <option value="atr26">26</option>
+    <option value="atr27">27</option>
+    <option value="atr28">28</option>
+    <option value="atr29">29</option>
+    <option value="atr30">30</option>
+    <option value="atr31">31</option>
+    <option value="atr32">32</option>
+    <option value="atr33">33</option>
+    <option value="atr34">34</option>
+    <option value="atr35">35</option>
+    <option value="atr36">36</option>
+    <option value="atr37">37</option>
+    <option value="atr38">38</option>
+    <option value="atr39">39</option>
+    <option value="atr40">40</option>
+    <option value="atr41">41</option>
+    <option value="atr42">42</option>
+  </select>
+  <br><br>
+  <label for="boardp8">Choose a eighth position:</label>
+  <select name="board8" id="board8">
+    <option value="atr1">1</option>
+    <option value="atr2">2</option>
+    <option value="atr3">3</option>
+    <option value="atr4">4</option>
+    <option value="atr5">5</option>
+    <option value="atr6">6</option>
+    <option value="atr7">7</option>
+    <option value="atr8">8</option>
+    <option value="atr9">9</option>
+    <option value="atr10">10</option>
+    <option value="atr11">11</option>
+    <option value="atr12">12</option>
+    <option value="atr13">13</option>
+    <option value="atr14">14</option>
+    <option value="atr15">15</option>
+    <option value="atr16">16</option>
+    <option value="atr17">17</option>
+    <option value="atr18">18</option>
+    <option value="atr19">19</option>
+    <option value="atr20">20</option>
+    <option value="atr21">21</option>
+    <option value="atr22">22</option>
+    <option value="atr23">23</option>
+    <option value="atr24">24</option>
+    <option value="atr25">25</option>
+    <option value="atr26">26</option>
+    <option value="atr27">27</option>
+    <option value="atr28">28</option>
+    <option value="atr29">29</option>
+    <option value="atr30">30</option>
+    <option value="atr31">31</option>
+    <option value="atr32">32</option>
+    <option value="atr33">33</option>
+    <option value="atr34">34</option>
+    <option value="atr35">35</option>
+    <option value="atr36">36</option>
+    <option value="atr37">37</option>
+    <option value="atr38">38</option>
+    <option value="atr39">39</option>
+    <option value="atr40">40</option>
+    <option value="atr41">41</option>
+    <option value="atr42">42</option>
+  </select>
+  <br><br>
+</div>
+
+
+
+
+<div id="body1">
+<table>
+<caption>Board Positions</caption>
+<tr>
+<td>36</td>
+<td>37</td>
+<td>38</td>
+<td>39</td>
+<td>40</td>
+<td>41</td>
+<td>42</td>
+</tr>
+<tr>
+<td>29</td>
+<td>30</td>
+<td>31</td>
+<td>32</td>
+<td>33</td>
+<td>34</td>
+<td>35</td>
+</tr>
+<tr>
+<td>22</td>
+<td>23</td>
+<td>24</td>
+<td>25</td>
+<td>26</td>
+<td>27</td>
+<td>28</td>
+</tr>
+<tr>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+<td>19</td>
+<td>20</td>
+<td>21</td>
+</tr>
+<tr>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+</tr>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+</tr>
+
+</table>
+</div>
+
+
+
+
+<div id="right">
+<h3>Choose the Player</h3>
+  <label for="playerboard1">Choose a player for the position 1:</label>
+    <select name="pboard1" id="pboard1">
+    <option value="1">FirstPlayer(O)</option>
+    <option value="2">SecondPlayer(X)</option>
+    </select>
+    <br><br>
+  <label for="playerboard2">Choose a player for the position 2:</label>
+    <select name="pboard2" id="pboard2">
+    <option value="1">FirstPlayer(O)</option>
+    <option value="2">SecondPlayer(X)</option>
+    </select>
+    <br><br>
+  <label for="playerboard3">Choose a player for the position 3:</label>
+    <select name="pboard3" id="pboard3">
+     <option value="1">FirstPlayer(O)</option>
+     <option value="2">SecondPlayer(X)</option>
+    </select>
+    <br><br>
+  <label for="playerboard4">Choose a player for the position 4:</label>
+    <select name="pboard4" id="pboard4">
+    <option value="1">FirstPlayer(O)</option>
+    <option value="2">SecondPlayer(X)</option>
+    </select>
+    <br><br>
+  <label for="playerboard5">Choose a player for the position 5:</label>
+    <select name="pboard5" id="pboard5">
+    <option value="1">FirstPlayer(O)</option>
+    <option value="2">SecondPlayer(X)</option>
+    </select>
+    <br><br>
+  <label for="playerboard6">Choose a player for the position 6:</label>
+    <select name="pboard6" id="pboard6">
+    <option value="1">FirstPlayer(O)</option>
+    <option value="2">SecondPlayer(X)</option>
+    </select>
+    <br><br>
+  <label for="playerboard7">Choose a player for the position 7:</label>
+    <select name="pboard7" id="pboard7">
+    <option value="1">FirstPlayer(O)</option>
+    <option value="2">SecondPlayer(X)</option>
+  </select>
+  <br><br>
+  <label for="playerboard8">Choose a player for the position 8:</label>
+    <select name="pboard8" id="pboard8">
+    <option value="1">FirstPlayer(O)</option>
+    <option value="2">SecondPlayer(X)</option>
+    </select>
+    <br><br>
+</div>
+
+
+<div id="footer">
+<input type="submit" value="Submit" name="submit" class="button"></input>
+</form><br><br>
+
+<form action="inputfile" method="post" enctype="multipart/form-data">
+  <label for="file"><span>Select a csv file:</span></label>
+  <input type="file" id="addfile" name="addfile" accept=".csv">
+  <input type="submit" value="Submit" name="submit" class="button" >
+</form>
+
+<h2><center>{{ prediction_text }}</center></h2>
+</div>
+
+</body>
+</html>
